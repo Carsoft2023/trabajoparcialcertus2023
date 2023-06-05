@@ -1,0 +1,167 @@
+/*Estilo global */
+* {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-size: 1.05em;
+    color: #1c1c1c;
+    box-sizing: border-box;
+}
+
+h2{
+    font-size: 1.5em;
+    color: #154686;
+    text-align: center;
+}
+
+h3{
+    height: 90px;
+}
+
+/*Body*/
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background-attachment: fixed;
+}
+
+/*Cabecera*/
+header >img {
+    margin: 0px;
+    width: 100%;
+    padding-top: auto;
+    padding-bottom: auto;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+/*Pagina Catalogo*/
+.pageCatalogo {
+    font-size: 1em;
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    background-color: #fcffdd;
+    text-align: center;
+}
+
+
+
+/*Pagina del formulario*/
+.pageform {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fdeda2;
+    background-image: ;
+    padding: 20px;
+}
+
+/*Articulos*/
+article {
+    width: 23%;
+    min-width: 280px;
+    display: inline-block;
+    border: #154686 2px solid;
+    margin: 20px 7px 0px;
+
+}
+
+/*Llamar al elemento cuadno el mouse esta encima*/
+article:hover {
+    border: #ff6c0a 2px solid;
+}
+
+
+/*Formato a los subtitulos h3*/
+article > h3 {
+    margin: 3px;
+    font-weight: 500;
+   
+}
+
+
+
+/*Formato a los subtitulos h3*/
+.nuevo  {
+    background-color: #154686;
+    margin: 10.5px;
+    color: #ffffff;
+    padding: 10px 0px ;
+}
+
+article > img {
+    width: 100%;
+
+}
+
+article > p {
+    text-align: center;
+    margin-bottom: 10px 0px;
+    font-size: 1em;
+    padding: 5px 15px;
+}
+
+.precioOriginal {
+    text-decoration: line-through;
+}
+
+.precioDescuento{
+    color: coral;
+    font-weight: bold;
+}
+.precioFinal {
+    color: #154686;
+    font-weight: 700;
+}
+
+.imgproduct {
+    width: 100%;
+}
+
+
+label {
+    display: block
+}
+
+.formElement {
+    width: 100%;
+}
+
+/*Formato Boton agregar carrito*/
+button{
+    margin: 15px;
+    font-size: 1em;
+    border-radius: 6px;
+    padding: 5px 10px;
+    color: #060999;
+      
+}
+
+/*Pie de pagina*/
+footer {
+    background-color: #154686;
+    padding: 15px;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+article:hover{
+    border: red 2px solid;
+}
+
+
+/* Página de confirmación de datos */
+
+.estilos{
+    background-color: red;
+    margin: 0 auto;
+    border: #e93f01 2px solid;
+    width: 75%;
+    border-radius: 5px;
+    text-align: center;
+
+    padding: 80px;
+}
